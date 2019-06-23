@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void write(String file_name_with_extension) {
-        readWriteFile.write(file_name_with_extension);
+        readWriteFile.write(file_name_with_extension,message);
 
     }
 }
